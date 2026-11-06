@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment and deployment settings
+.env*
+!.env.example
+.vercel/
+
+# Local-only editors, OS files, logs, and test artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+playwright-report/
+test-results/
